@@ -8,14 +8,14 @@ To implement the task of document classification it was used this [repo](https:/
 ### 1. Fast Minimum-Norm (FMN) Attack
 The primary goal of the FMN attack is to generate an adversarial example from a clean input that makes a machine learning model give the wrong output while keeping the changes as subtle and hard to notice as possible. 
 
-<picture> ![image](https://github.com/ovi997/assets/fnm.jpg)
- </picture>
+![alt text](https://github.com/ovi997/ia3-project/blob/master/assets/fnm.jpg?raw=true)
 
 Based on this algorithm, an untargeted attack on the embeddings of the text was implemented, using Cross-Entropy as loss function. 
 ### 2. DeepFool
 The primary goal of the DeepFool attack is to compute a minimal perturbation for an input, such that the model’s prediction changes to a different (incorrect) class. The changes are often so small that they are imperceptible to humans.
 
 ![alt text](https://github.com/ovi997/ia3-project/blob/master/assets/df.jpg?raw=true)
+
 DeepFool operates by treating the classifier as a geometric structure in a high-dimensional space and finding the nearest decision boundary.
  
 ## Defense
