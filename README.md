@@ -15,9 +15,7 @@ Based on this algorithm, an untargeted attack on the embeddings of the text was 
 ### 2. DeepFool
 The primary goal of the DeepFool attack is to compute a minimal perturbation for an input, such that the model’s prediction changes to a different (incorrect) class. The changes are often so small that they are imperceptible to humans.
 
-<picture>![image](https://github.com/ovi997/assets/df.jpg)
- </picture>
-
+![alt text](https://github.com/ovi997/ia3-project/blob/master/assets/df.jpg?raw=true)
 DeepFool operates by treating the classifier as a geometric structure in a high-dimensional space and finding the nearest decision boundary.
  
 ## Defense
